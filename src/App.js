@@ -1,20 +1,10 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Footer from './components/Footer';
-import Servicios from './components/Servicios';
-
+import Router from './router';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Servicios />
-      <Main />
-
-      <Footer />
-    </div>
+    <Router/>
   );
 }
 
