@@ -1,0 +1,38 @@
+.Servicios{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Servicios h1{
+    font-family: Barlow-Bold ;
+    color: #113141;
+    display: block;
+}
+
+.card-deck{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.card, .card *, .card-img-top {
+    background-color: #EFF5FB;
+}
+.card{
+    width: 291.57px;
+    height: 438.09px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    border: none;
+    padding: 30px;
+}
+

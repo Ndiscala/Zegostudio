@@ -19,7 +19,7 @@ const Router = ()=>{
                 <Route path='/portafolio' element={<Portafolio/>}/>
                 <Route path='/servicios' element={<Servicios/>}/>
             </Routes>
-            <Footer/>
+            {/* <Footer/> */}
         </BrowserRouter>
     )
 }

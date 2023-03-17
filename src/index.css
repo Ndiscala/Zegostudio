@@ -1,0 +1,58 @@
+/* Atomo/Botones/Terciario */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6.67987px 13.3597px;
+gap: 8.35px;
+
+width: 85.72px;
+height: 29px;
+
+border-radius: 5.0099px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* whatsapp */
+
+display: none;
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Whatsapp */
+
+width: 59px;
+height: 14px;
+
+/* Body 2 */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.25px;
+
+/* Texto General/Variante 2 */
+color: #727272;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

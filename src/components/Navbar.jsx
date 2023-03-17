@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Styles/NavBar.css';
 import { Link } from 'react-router-dom';
-
+import '../assets/styles/Navbar.css';
+import logo from '../assets/gallery/logo_xs.jpeg';
 
 const Navbar = () => {
   
@@ -15,12 +15,12 @@ const Navbar = () => {
   
   
   return (
-    <nav 
-        className="navbar bg-body-tertiary "
-    >
-        <div className="container-fluid shadow-sm bg-body-tertiary rounded">
-            <a className="navbar-brand ms-5" href='#'>LOGO</a>
 
+    <nav 
+        className="navbar fixed-top"
+    >
+        <div className="container-fluid">
+            <img className="navbar-brand ms-5" alt="ZegoStudio" src={logo}/>
             <div className='d-flex'>
             {
               sections.map(sec=>{
@@ -31,11 +31,6 @@ const Navbar = () => {
         </div>
     </nav>
   )
-  {/* <Link className="nav-link  me-5" >Home</Link>
-  <Link className="nav-link  me-5" >Nosotros</Link>
-  <Link className="nav-link  me-5" >Servicios</Link>
-  <Link className="nav-link  me-5" >Portafolio</Link>
-  <Link className="nav-link  me-5" >Contacto</Link> */}
 }    
    
 

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Barlow-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Barlow-Bold.ttf");
+}
+@font-face {
+    font-family: "Barlow-Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Barlow-Medium.ttf");
+}
+@font-face {
+    font-family: "Flare-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Flare-Regular.ttf");
+}
+@font-face {
+    font-family: "MBF-MODERN-REBEL";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/MBF_MODERN_REBEL.ttf");
+}
+
+
+
+
+
+*{
+    background-color: #E0DBEC;
+}
+.section{
+    position: relative;
+    top:5rem;
+}
