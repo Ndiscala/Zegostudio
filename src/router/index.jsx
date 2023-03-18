@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Home from '../views/Home.jsx';
@@ -19,7 +19,7 @@ const Router = ()=>{
                 <Route path='/portafolio' element={<Portafolio/>}/>
                 <Route path='/servicios' element={<Servicios/>}/>
             </Routes>
-            {/* <Footer/> */}
+            <Footer/>
         </BrowserRouter>
     )
 }
