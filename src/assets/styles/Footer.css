@@ -1,0 +1,23 @@
+hr{
+    width: 70%;
+    margin: 5% 20%;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.logo p{
+    font-family: MBF-MODERN-REBEL;
+}
+
+.politica .sub{
+font-family: Barlow-Bold;
+}
+
+.politica .text{
+    font-family: Barlow-Medium;
+}

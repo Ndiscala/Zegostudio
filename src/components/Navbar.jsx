@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
 
     <nav 
-        className="navbar fixed-top"
+        className="navbar m-auto"
     >
         <div className="container-fluid">
             <img className="navbar-brand ms-5" alt="ZegoStudio" src={logo}/>
