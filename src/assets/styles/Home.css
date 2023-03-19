@@ -30,9 +30,16 @@
 .section1 button{
     background-color: #449F87;
     letter-spacing: 1px;
-    height: 50%;
     margin: auto;
+    border-radius: 5.0099px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: Barlow-medium;
+    width: 257.35px;
+    height: 38px;
 }
 
 .Declaraciones img{
@@ -56,3 +63,6 @@
     color: rgba(75, 75, 75, 1);
 }
 
+.carousel-caption, .carousel-caption *, .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators{
+    background-color: transparent;
+}
