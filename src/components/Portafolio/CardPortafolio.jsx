@@ -10,24 +10,34 @@ import proyecto6 from '../../assets/gallery/proyecto6.png'
 const CardPortafolio = () => {
 
     const Proyectos = [
-        {Img:proyecto1, title:'Proyecto 1', text:'asd'},
+        {Img:proyecto1, title:'Web design (2022)', text:'WERLTON'},
         {Img:proyecto2, title:'Proyecto 2', text:'asd'},
         {Img:proyecto3, title:'Proyecto 3', text:'asd'},
-        {Img:proyecto4, title:'Proyecto 4', text:'asd'},
-        {Img:proyecto5, title:'Proyecto 5', text:'dsa'},
-        {Img:proyecto6, title:'Proyecto 6', text:'dddsa'}
+        {Img:proyecto5, title:'Proyecto 4', text:'asd'},
+        {Img:proyecto6, title:'Proyecto 5', text:'dsa'},
+        {Img:proyecto4, title:'Proyecto 6', text:'dddsa'}
     ]
 
   return (
     
-        <div className='d-flex justify-content-evenly m-3' style={{}}>
+        <div className='d-flex justify-content-evenly flex-wrap m-3'>
             {
                 Proyectos.map(proy =>{
-                    return   <div className="card m-3"  key={proy.title}>
-                                    <img src={proy.img} className="card-img-top" alt="..."/>
-                                        <h5 className="card-title"> {proy.title} </h5>
-                                        <p className="card-text"> {proy.text}</p>     
-                            </div>
+                    return <figure className="figure m-auto Proyectos">
+                                <img src={proy.Img} className="figure-img img-fluid rounded" alt="..."/>
+                                <p className='title '>{proy.text} </p> 
+                                <p className='text '>{proy.title} </p> 
+                            </figure>
+                    
+                    {/* <div className="card m-3 overflow-hidden"  key={proy.title} style={{width:'25rem'}}>
+                                    <img src={proy.Img} className="img-fluid " alt="proyectos" />
+                                    
+                            </div> */}
+                            
+                                
+                            
+                            
+                            
                 })
             }
         </div>      
