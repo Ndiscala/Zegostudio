@@ -1,7 +1,14 @@
 import React from 'react'
+import CardPortafolio from './CardPortafolio'
+
 
 export const Portfolio = () => {
   return (
-    <div>Portafolio</div>
+    <div className=''>
+        
+      <CardPortafolio />
+        
+          
+    </div>
   )
 }

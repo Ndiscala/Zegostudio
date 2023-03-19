@@ -31,26 +31,26 @@ const Footer = () => {
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i class="bi bi-linkedin fs-1"></i>
+                          <i className="bi bi-linkedin "></i>
                 </a>
+                
+                <a className="btn "
+                href="https://www.instagram.com/zego_studio/"
+                role="button"> 
+                          <i className="bi bi-instagram "></i>
+                </a>
+                
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i class="bi bi-instagram fs-1"></i>
-                </a>
-                
-                
-                <a className="btn "
-                href="#"
-                role="button"> 
-                <i class="bi bi-globe fs-1"></i>
+                <i className="bi bi-globe "></i>
                 </a>
                 
                 <a className="btn "
-                href="#"
+                href="https://www.behance.net/ZegoStudio"
                 role="button"> 
-                <i class="bi bi-behance fs-1"></i>
+                <i className="bi bi-behance"></i>
                 </a>
 
               </div>
