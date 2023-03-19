@@ -1,10 +1,11 @@
 .Servicios{
     display: flex;
     width: 100%;
-    height: 85vh;
-    justify-content: space-evenly;
+    height: 80vh;
+    justify-content: space-around   ;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 6rem;
 }
 
 .Servicios h1{
@@ -129,3 +130,4 @@
     font-family: 'Barlow-Bold';
     border: 1.04903px solid #ECECEC;
 }
+

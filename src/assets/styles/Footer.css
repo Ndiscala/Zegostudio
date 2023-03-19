@@ -21,3 +21,13 @@ font-family: Barlow-Bold;
 .politica .text{
     font-family: Barlow-Medium;
 }
+
+.footer{
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content{
+    border-top: solid #597688 2px;
+    padding-top: 2rem;
+}

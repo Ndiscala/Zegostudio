@@ -4,13 +4,12 @@ import Logo from '../assets/gallery/logo.jpeg'
 
 const Footer = () => {
   return (
-    <footer className=" text-center  m-3">
-        
+    <footer className=" text-center footer  m-3">
         <div className="container-fluid p-4 pb-0">
-              <div className="row d-flex justify-content-evenly m-3">
+              <div className="row  d-flex footer-content justify-content-evenly m-3">
                 
                 <div className="d-flex col-auto m-3 logo">
-                  <img src={Logo}  />
+                  <img src={Logo}  alt='zego' />
                   <p>ZEGO STUDIO</p>
                     
                   
@@ -31,26 +30,26 @@ const Footer = () => {
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i class="bi bi-linkedin fs-1"></i>
+                          <i className="bi bi-linkedin fs-1"></i>
                 </a>
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i class="bi bi-instagram fs-1"></i>
+                          <i className="bi bi-instagram fs-1"></i>
                 </a>
                 
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                <i class="bi bi-globe fs-1"></i>
+                <i className="bi bi-globe fs-1"></i>
                 </a>
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                <i class="bi bi-behance fs-1"></i>
+                <i className="bi bi-behance fs-1"></i>
                 </a>
 
               </div>

@@ -16,8 +16,8 @@ const HomeDesign = () => {
                 <p className=''>Somos un estudio creativo especializado en <b>diseño y desarrollo web, <br /> branding</b> y estrategias de redes sociales.</p>
                 <p className=''>Ofrecemos soluciones <b>innovadoras</b> y de <b>alta calidad</b> para hacer que tu <br /> negocio destaque en el mercado.</p>
                 
-                <p className='description'><i class="bi bi-person-check m-3"></i> Diseño centrado en el usuario</p>
-                <p className='description'><i class="bi bi-qr-code m-3"></i> Sitios web optimizados y personalizados.</p>
+                <p className='description'><i className="bi bi-person-check m-3"></i> Diseño centrado en el usuario</p>
+                <p className='description'><i className="bi bi-qr-code m-3"></i> Sitios web optimizados y personalizados.</p>
             </div>
             
                 
@@ -28,7 +28,7 @@ const HomeDesign = () => {
             </div>
             <div className='d-flex  Declaraciones'>
                 
-                      <img src={Integrante} />
+                      <img src={Integrante} alt='...' />
                 
                
                 <div className='m-3'>
