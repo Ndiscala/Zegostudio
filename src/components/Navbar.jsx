@@ -24,17 +24,17 @@ const Navbar = () => {
             <div className='d-flex'>
             {
               sections.map(sec=>{
-                return <Link className='nav-link me-5' to={sec.path} key={sec.name}>{sec.name}</Link>
+                return <Link className='nav-link' to={sec.path} key={sec.name}>{sec.name}</Link>
               })
             }
             </div>  
         </div>
     </nav>
-    <div className="nav">
+    <div className="nav" style={{height:"6rem"}}>
   <input type="checkbox" id="nav-check"/>
   <div className="nav-header">
     <div className="nav-title">
-    <img className="navbar-brand ms-5" alt="ZegoStudio" src={logo}/>
+    <img className="navbar-brand ms-5" alt="ZegoStudio" src={logo} />
     </div>
   </div>
   <div className="nav-btn" style={{backgroundColor:"transparent"}}>
@@ -48,7 +48,7 @@ const Navbar = () => {
   <div className="nav-links">
   {
               sections.map(sec=>{
-                return <Link className='nav-link me-5' to={sec.path} key={sec.name}>{sec.name}</Link>
+                return <Link className='nav-link' to={sec.path} key={sec.name}>{sec.name}</Link>
               })
   }
   </div>
