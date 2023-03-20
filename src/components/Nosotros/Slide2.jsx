@@ -7,10 +7,10 @@ import iconCalidad from '../../assets/gallery/nosotros_icon_calidad.png'
 
 const Slide2 = () => {
   return (
-    <div className='nos-slide'>
+    <div className='nos-slide slide-valor'>
     <h1>Propuesta de Valor</h1>
     <div className="content">
-        <div className="nos-slide-text justify-content-between">
+        <div className="nos-slide-text">
             <h1>Llevamos tu startup al siguiente nivel</h1>
             <p>Nos enfocamos en comprender profundamente las necesidades de nuestros clientes, para ofrecer soluciones <b>conecten emocionalmente</b> con su audiencia.</p>
             <p>Somos el <b>aliado creativo</b> y <b>confiable</b> que necesitan nuestros clientes para llevar su negocio al siguiente nivel.</p>

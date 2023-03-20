@@ -5,7 +5,7 @@ import BsAs from '../../assets/gallery/nosotros_bsas.jpg'
 
 const Slide1 = () => {
   return (
-    <div className='nos-slide'>
+    <div className='nos-slide slide-history'>
         <h1>Nuestra Historia</h1>
         <div className="content">
             <img src={BsAs} className='nos-slide-img' />

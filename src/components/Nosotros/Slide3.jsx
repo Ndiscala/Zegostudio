@@ -8,9 +8,9 @@ import iconTest from '../../assets/gallery/nosotros_3_test.png';
 
 const Slide3 = () => {
   return (
-    <div className='nos-slide'>
+    <div className='nos-slide slide-proceso'>
     <h1>Proceso de diseño</h1>
-        <div className="nos-slide-text" style={{width:"60%", textAlign:"center",marginTop:"2rem"}}>
+        <div className="nos-slide-text" style={{textAlign:"center",marginTop:"2rem"}}>
             <p>Trabajamos bajo la metodología de <b>Diseño Centrada en el Usuario</b>, una práctica de diseño en dónde nos enfocamos en las necesidades del usuario siguiendo sus 4 principios: </p>
         </div>
     <div className="nos-proceso">
