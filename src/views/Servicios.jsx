@@ -10,7 +10,7 @@ const Servicios = () => {
     <>
     <div className='section Servicios'>
       <h1>Servicios</h1>
-      <div class="card-deck">
+      <div className="card-deck">
         <CardServiciosDesign/> 
         <CardServiciosBranding/>
         <CardServiciosRedes/>
