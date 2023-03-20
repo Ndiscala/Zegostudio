@@ -1,7 +1,6 @@
 .nos-slide{
-  height: 95vh;
+  height: 45rem;
   width: 100%;
-  background-color: aqua;
   background-image: url('../gallery/nos_slides_background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,4 +115,35 @@ font-family: 'Barlow-Bold';
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.arrows{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 22.5rem;
+  color: #ECECEC;
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 0 2rem;
+  margin: 0;
+  height: 2rem;
+}
+.arrows *{
+  background-color: transparent;
+}
+
+.arrows *:hover{
+  background-color: #ecececd8;
+  color: #113141;
+  border-radius: 50%;
+}
+
+.arrows span{
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

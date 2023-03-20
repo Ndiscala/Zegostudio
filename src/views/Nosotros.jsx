@@ -1,35 +1,49 @@
 import React from 'react';
+import { useState } from 'react';
 import '../assets/styles/Nosotros.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import img1 from '../assets/gallery/imagen1.png';
-import img2 from '../assets/gallery/imagen2.png';
-import img3 from '../assets/gallery/imagen3.png';
 import Slide1 from '../components/Nosotros/Slide1';
 import Slide3 from '../components/Nosotros/Slide3';
 import Slide2 from '../components/Nosotros/Slide2';
+import { IoMdArrowBack } from 'react-icons/io';
+import { IoMdArrowForward} from 'react-icons/io';
+
+
 const Nosotros = () => {
 
+  const [slideIndex, setSlideIndex] = useState(3);
+
+  // const[actualSlide, setActualSlide]= useState(<p>Cargando...</p>);
+
+  const nextSlide=()=>{
+    if(slideIndex<3){
+      setSlideIndex(slideIndex+1);
+    }else{
+      setSlideIndex(1);
+    }
+  };
+
+  const prevSlide=()=>{
+    if(slideIndex>1){
+      setSlideIndex(slideIndex-1)
+    }else{
+      setSlideIndex(3)
+    }
+  }
+
+
   return (
-    <div className='section' style={{top:'0.2rem'}} >
-      <Slide1/>
-      <Slide2/>
-      <Slide3/>
+    <div className='section' style={{top:'0.5rem'}} >
+      <div className="arrows">
+        <span onClick={prevSlide}><IoMdArrowBack/> </span>
+        <span onClick={nextSlide}><IoMdArrowForward/></span>
+      </div>
+        {
+          slideIndex==1 ?
+          <Slide1/>
+          :
+          slideIndex ==2 ? <Slide2/> : <Slide3/>
+        }
     </div>
-//     <Carousel>
-//     <div>
-//         <img src={img1} />
-//         <p className="legend">Legend 1</p>
-//     </div>
-//     <div>
-//         <img src={img2} />
-//         <p className="legend">Legend 2</p>
-//     </div>
-//     <div>
-//         <img src={img3} />
-//         <p className="legend">Legend 3</p>
-//     </div>
-// </Carousel>
   )
 }
 
