@@ -41,6 +41,19 @@
     width: 257.35px;
     height: 38px;
 }
+.section1 button:hover{
+    background-color: #449F87;
+
+}
+.icon{
+    background-color: #449F87;
+}
+.section1 button a{
+    background-color: #449F87;
+    color: #E0DBEC;
+    text-decoration: none;
+    font-family: Barlow-medium;
+}
 
 .Declaraciones img{
     width: 70px;
@@ -62,6 +75,8 @@
     font-family: Barlow-Medium;
     color: rgba(75, 75, 75, 1);
 }
+
+/* CAROUSEL */
 
 .carousel-caption, .carousel-caption *, .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators{
     background-color: transparent;

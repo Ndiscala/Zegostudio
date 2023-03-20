@@ -1,6 +1,6 @@
 import React from 'react'
-import { HomeCarousel } from './HomeCarousel'
 import Integrante from '../../assets/gallery/imagen1.png'
+import HomeCarousel from './HomeCarousel'
 
 
 
@@ -24,7 +24,11 @@ const HomeDesign = () => {
             
             <div className='Contactanos'>
                 <h5 className='contactar m-3'>!Mándanos un mensaje!</h5>
-                <button type="button " className="btn btn-success btn-sm"><i class="bi bi-whatsapp m-1"></i> Quiero hablar por whatsapp</button>
+                <button type="button" className="btn  btn-sm" > 
+                       <a href='https://web.whatsapp.com/'><i class="bi bi-whatsapp m-1 icon"></i> 
+                        Quiero hablar por whatsapp</a> 
+                        
+                </button>
             </div>
             <div className='d-flex  Declaraciones'>
                 

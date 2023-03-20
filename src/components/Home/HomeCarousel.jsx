@@ -1,48 +1,64 @@
 import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 import Integrante1 from '../../assets/gallery/imagen1.png'
 import Integrante2 from '../../assets/gallery/imagen2.png'
 import Integrante3 from '../../assets/gallery/imagen3.png'
-// import Integrante4 from '../../assets/gallery/imagen4.png'
+import Integrante4 from '../../assets/gallery/imagen4.png'
 
-export const HomeCarousel = () => {
+
+
+function HomeCarousel() {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide">
-  <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={Integrante1} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Juan Barozzi Behr</h5>
-        <p>WordPress</p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <img src={Integrante2} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Luis Brizuela</h5>
-        <p>UXUI Designer</p>
-      </div>
-    </div>
-    <div className="carousel-item">
-      <img src={Integrante3} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Rocio Fuentes</h5>
-        <p>Fullstack Developer</p>
-      </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-  )
+    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Integrante1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Juan Barozzi Behr</h3>
+          <p>WordPress</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Integrante2}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Luis Brizuela</h3>
+          <p>UXUI Designer</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Integrante3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Rocio Fuentes</h3>
+          <p>Fullstack Developer</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Integrante4}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Gabriel Sotto</h3>
+          <p>: UXUi Designer - React developer</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
+
+export default HomeCarousel;
