@@ -15,7 +15,7 @@ const Navbar = () => {
   
   
   return (
-
+<>
     <nav 
         className="navbar m-auto"
     >
@@ -30,6 +30,30 @@ const Navbar = () => {
             </div>  
         </div>
     </nav>
+    <div className="nav">
+  <input type="checkbox" id="nav-check"/>
+  <div className="nav-header">
+    <div className="nav-title">
+    <img className="navbar-brand ms-5" alt="ZegoStudio" src={logo}/>
+    </div>
+  </div>
+  <div className="nav-btn" style={{backgroundColor:"transparent"}}>
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div className="nav-links">
+  {
+              sections.map(sec=>{
+                return <Link className='nav-link me-5' to={sec.path} key={sec.name}>{sec.name}</Link>
+              })
+  }
+  </div>
+  </div>
+  </>
   )
 }    
    
