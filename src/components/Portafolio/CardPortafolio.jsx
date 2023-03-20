@@ -11,11 +11,11 @@ const CardPortafolio = () => {
 
     const Proyectos = [
         {Img:proyecto1, title:'Web design (2022)', text:'WERLTON'},
-        {Img:proyecto2, title:'Proyecto 2', text:'asd'},
-        {Img:proyecto3, title:'Proyecto 3', text:'asd'},
-        {Img:proyecto5, title:'Proyecto 4', text:'asd'},
-        {Img:proyecto6, title:'Proyecto 5', text:'dsa'},
-        {Img:proyecto4, title:'Proyecto 6', text:'dddsa'}
+        {Img:proyecto2, title:'Branding (2023)', text:'Searchify'},
+        {Img:proyecto3, title:'Branding (2022)', text:'Punkt.'},
+        {Img:proyecto5, title:'Redes sociales (2023)', text:'Ornskov'},
+        {Img:proyecto6, title:'MOON Instagram Stories', text:'Redes sociales (2022)'},
+        {Img:proyecto4, title:'Blackroom', text:'Web design (2021)'}
     ]
 
   return (

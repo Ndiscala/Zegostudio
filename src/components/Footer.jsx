@@ -26,30 +26,30 @@ const Footer = () => {
                   
                 </div>
                 
-                <div className="col-auto m-3 iconos">
+                <div className="col-auto m-3 ">
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i className="bi bi-linkedin fs-1"></i>
+                          <i className="bi bi-linkedin "></i>
                 </a>
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                          <i className="bi bi-instagram fs-1"></i>
+                          <i className="bi bi-instagram "></i>
                 </a>
                 
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                <i className="bi bi-globe fs-1"></i>
+                <i className="bi bi-globe "></i>
                 </a>
                 
                 <a className="btn "
                 href="#"
                 role="button"> 
-                <i className="bi bi-behance fs-1"></i>
+                <i className="bi bi-behance "></i>
                 </a>
 
               </div>
