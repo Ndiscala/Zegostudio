@@ -1,0 +1,83 @@
+.contacto{
+    display: flex;
+    min-height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('../gallery//contacto_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 1rem;
+    width: 80%;
+    border-radius: 20px;
+    color: #ECECEC;
+    font-family: 'Barlow-Bold';
+}
+
+.contacto .text-panel{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contacto p, .contacto .hola,  .contacto .action-panel *{
+    color: #ECECEC;
+    font-family: 'Barlow-Medium';
+}
+
+.contacto *{
+    background-color: transparent;
+}
+
+.contacto .action-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+}
+.contacto .action-panel button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8.35px;
+    width: 215px;
+    height: 38px;
+    border-radius: 5.0099px;
+    border:none;
+}
+
+.hola-zego{
+    color: #113141;
+    font-family: 'Barlow-Bold';
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (max-width:900px) {
+    .contacto .action-panel{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 460px){
+    .contacto .action-panel{
+        width: 80%;
+    }
+    /* .contacto .action-panel button{
+        padding: 4px;
+        font-size: 12px;
+    } */
+}

@@ -34,7 +34,7 @@ const Footer = () => {
                 </a>
                 
                 <a className="btn "
-                href="#"
+                href="https://www.instagram.com/sego_studio"
                 role="button"> 
                           <i className="bi bi-instagram "></i>
                 </a>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </a>
                 
                 <a className="btn "
-                href="#"
+                href="https://www.behance.net/ZegoStudio"
                 role="button"> 
                 <i className="bi bi-behance "></i>
                 </a>
